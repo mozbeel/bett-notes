@@ -1,5 +1,3 @@
-
-
 ![[Pasted image 20260922091508.png]]
 
 # 5. Garry buna shi na met dori puana dori met pana fun su la gonk
