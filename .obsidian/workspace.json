@@ -4,49 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "fa892e8c24606f98",
+        "id": "437d2d5082d2da8e",
         "type": "tabs",
         "children": [
           {
-            "id": "650ca53f9bbd2fca",
+            "id": "8f2afda230677170",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Misc/Top 5 cato (猫).md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Top 5 cato (猫)"
-            }
-          },
-          {
-            "id": "db41882d973499fc",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Misc/img/Pasted image 20260922161308.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260922161308"
-            }
-          },
-          {
-            "id": "c2be920118e1edbc",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Misc/img/tux_style_penguin_in_bin.png"
-              },
-              "icon": "lucide-image",
-              "title": "tux_style_penguin_in_bin"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -222,13 +193,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c6c988ba1ca452d",
+  "active": "8f2afda230677170",
   "lastOpenFiles": [
-    "Misc/img/tux_style_penguin_in_bin.png",
-    "conflict-files-obsidian-git.md",
+    "Misc/Top 5 cato (猫).md",
     "Misc/Top 5 most annoying operating systems.md",
     "Misc/img/Pasted image 20260922161308.png",
-    "Misc/Top 5 cato (猫).md",
+    "conflict-files-obsidian-git.md",
+    "Misc/img/tux_style_penguin_in_bin.png",
     "Misc/img/Pasted image 20260922161724.png",
     "Misc/img/Pasted image 20260922161710.png",
     "Misc/img/Pasted image 20260922161706.png",
