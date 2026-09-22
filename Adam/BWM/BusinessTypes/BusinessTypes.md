@@ -1,3 +1,4 @@
+#BWM #Business 
 Corporation = Kapitalgesellschaften = All people try to increase each others money
 Cooperations = Personen gesellschaften = All people work together
 

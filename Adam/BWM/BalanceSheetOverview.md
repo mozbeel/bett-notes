@@ -1,3 +1,4 @@
+#BWM #Accounting 
 ### Aktiv
 
 - **A.** Anlagevermoegen (Fixed Assets)
