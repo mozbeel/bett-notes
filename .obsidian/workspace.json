@@ -11,14 +11,14 @@
             "id": "35b32ffb3456d83a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Misc/Top 5 Hollow Knight NPCs.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/app.json",
+                "bFile": ".obsidian/app.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Top 5 Hollow Knight NPCs"
+              "icon": "diff",
+              "title": "Diff: app.json  (Working Tree)"
             }
           }
         ]
@@ -96,7 +96,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BWM/Accounting/Assessing Values.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rückverweise auf Assessing Values"
+              "title": "Backlinks"
             }
           },
           {
@@ -166,13 +165,23 @@
               "icon": "lucide-list",
               "title": "Gliederung von Assessing Values"
             }
+          },
+          {
+            "id": "5fca7a855ded293f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,11 +192,17 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-excalidraw-plugin:New drawing": false
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c6c988ba1ca452d",
+  "active": "35b32ffb3456d83a",
   "lastOpenFiles": [
+    "BWM/Business/Company Register.md",
+    "BWM/Business/Sole Trader.md",
+    "BWM/Business/Legal Forms Of Businesses.md",
+    "BWM/Accounting/Assessing Values.md",
+    "Misc/Top 5 Hollow Knight NPCs.md",
     "Adam/POSLogic/Temp.md",
     "Adam/BWM/Grundsaetze.md",
     "Adam/BWM/BuisinessTypes.md",
@@ -197,7 +212,6 @@
     "Adam",
     "CABS/Motherboard Architecture.md",
     "CABS/ARM.md",
-    "Misc/Top 5 Hollow Knight NPCs.md",
     "README.md",
     "Misc/img/Pasted image 20260922092728.png",
     "Misc/img/Pasted image 20260922092520.png",
@@ -213,8 +227,6 @@
     "CABS/RISC.md",
     "BWM/Accounting/Balance Sheet.md",
     "CABS",
-    "BWM/Accounting/Assessing Values.md",
-    "BWM/Business/Legal Forms Of Businesses.md",
     "POS/Logics/Logic.md",
     "POS/Logics/Informatics.md",
     "POS/Logics/Binary Logic.md",
@@ -222,7 +234,6 @@
     "POS/Logics/Logic",
     "POS/Logics",
     "POS",
-    "BWM/Business/Company Register.md",
     "BWM/Business",
     "BWM/Accounting/Legal Basis for Assessement.md",
     "Willkommen.md"

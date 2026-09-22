@@ -32,3 +32,7 @@ Legal Forms:
 	- AG (Aktiengesellschaft, stock company): same like GmbH, very large companies, differences:
 		- has shares, tradable
 	- FlexKapG (Flexible Kapitalgesellschaft)
+
+
+Related to:
+[[Sole Trader]] [[Company Register]]
