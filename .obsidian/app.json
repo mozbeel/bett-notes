@@ -1,5 +1,6 @@
 {
   "userIgnoreFilters": [
     "README.md"
-  ]
+  ],
+  "promptDelete": false
 }
