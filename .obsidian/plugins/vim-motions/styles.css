@@ -1,0 +1,1673 @@
+/* --- Hide plugin decorations in table cell editors --- */
+
+.cm-table-widget .cm-gutters {
+    display: none;
+}
+
+.vim-motions-raw-table .cm-editor .cm-table-widget {
+    display: none;
+}
+.vim-motions-table-nav-active {
+    outline: 2px solid var(--interactive-accent);
+    outline-offset: -1px;
+    border-radius: var(--radius-s);
+}
+
+.cm-editor .vim-motions-table-nav-mode.cm-table-widget,
+.cm-editor .vim-motions-table-nav-mode .cm-table-widget {
+    cursor: default;
+    overflow-x: auto;
+    overflow-y: visible;
+}
+
+.vim-motions-table-nav-cell-hidden {
+    visibility: hidden;
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+
+.vim-motions-cursor-layer-hidden {
+    display: none;
+}
+
+/* --- Vim panel (align fork with Obsidian theme) --- */
+
+.cm-vim-panel {
+    font-family: var(--font-monospace);
+    background-color: var(--background-primary);
+    color: var(--text-normal);
+}
+
+.cm-vim-panel input {
+    font-family: var(--font-monospace);
+    color: var(--text-normal);
+}
+
+/* --- Visual line mode selection (theme-aware override for fork's baseTheme) --- */
+
+.cm-editor .cm-scroller .cm-content .cm-line.cm-vim-linewise-selection {
+    background-color: var(--text-selection, rgba(0, 100, 200, 0.2));
+    color: inherit;
+}
+
+.cm-editor .cm-scroller .cm-content .cm-vim-linewise-widget-selection {
+    background-color: var(--text-selection, rgba(0, 100, 200, 0.2));
+}
+
+/* --- Status bar --- */
+
+.vim-motions-hidden {
+    display: none;
+}
+
+.vim-motions-config-path-active {
+    color: var(--text-success);
+}
+
+.vim-motions-config-path-error {
+    color: var(--text-error);
+}
+
+/* ── Settings tab bar (pre-1.13 imperative path) ─────────────── */
+
+.vim-motions-settings-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--size-4-1, 4px);
+    padding-bottom: var(--size-4-3, 12px);
+    margin-bottom: var(--size-4-3, 12px);
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.vim-motions-settings-tab-btn {
+    padding: var(--size-4-1, 4px) var(--size-4-3, 12px);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: var(--radius-s, 4px);
+    background: var(--background-secondary);
+    color: var(--text-muted);
+    font-size: var(--font-ui-small);
+    cursor: pointer;
+    transition:
+        background-color 100ms ease-in-out,
+        color 100ms ease-in-out;
+}
+
+.vim-motions-settings-tab-btn:hover {
+    background: var(--background-modifier-hover);
+    color: var(--text-normal);
+}
+
+.vim-motions-settings-tab-btn.is-active {
+    background: var(--interactive-accent);
+    color: var(--text-on-accent);
+    border-color: var(--interactive-accent);
+}
+
+/* ── Settings conditional visibility (pre-1.13) ──────────── */
+
+.vim-motions-settings-content:not(.vim-motions-animated-cursor-on)
+    .vim-motions-when-animated-cursor,
+.vim-motions-settings-content:not(.vim-motions-animated-cursor-on)
+    .vim-motions-when-smooth-cursor,
+.vim-motions-settings-content:not(.vim-motions-animated-cursor-on)
+    .vim-motions-when-smear-trail,
+.vim-motions-settings-content:not(.vim-motions-smooth-cursor-on)
+    .vim-motions-when-smooth-cursor,
+.vim-motions-settings-content:not(.vim-motions-smear-trail-on)
+    .vim-motions-when-smear-trail,
+.vim-motions-settings-content:not(.vim-motions-yank-highlight-on)
+    .vim-motions-when-yank-highlight,
+.vim-motions-settings-content:not(.vim-motions-flash-on)
+    .vim-motions-when-flash,
+.vim-motions-settings-content:not(.vim-motions-flash-on)
+    .vim-motions-when-flash-jump,
+.vim-motions-settings-content:not(.vim-motions-flash-jump-on)
+    .vim-motions-when-flash-jump,
+.vim-motions-settings-content:not(.vim-motions-easymotion-on)
+    .vim-motions-when-easymotion,
+.vim-motions-settings-content:not(.vim-motions-hint-mode-on)
+    .vim-motions-when-hint-mode,
+.vim-motions-settings-content:not(.vim-motions-easymotion-on):not(
+        .vim-motions-flash-on
+    )
+    .vim-motions-when-easymotion-or-flash,
+.vim-motions-settings-content:not(.vim-motions-easymotion-on):not(
+        .vim-motions-hint-mode-on
+    )
+    .vim-motions-when-easymotion-or-hint,
+.vim-motions-settings-content:not(.vim-motions-easymotion-on):not(
+        .vim-motions-hint-mode-on
+    ):not(.vim-motions-flash-on)
+    .vim-motions-when-easymotion-or-hint-or-flash,
+.vim-motions-settings-content:not(.vim-motions-snippets-on)
+    .vim-motions-when-snippets,
+.vim-motions-settings-content:not(.vim-motions-oil-on) .vim-motions-when-oil,
+.vim-motions-settings-content:not(.vim-motions-undo-tree-on)
+    .vim-motions-when-undo-tree,
+.vim-motions-settings-content:not(.vim-motions-status-bar-on)
+    .vim-motions-when-status-bar,
+.vim-motions-settings-content:not(.vim-motions-which-key-on)
+    .vim-motions-when-which-key,
+.vim-motions-settings-content:not(.vim-motions-workspace-nav-on)
+    .vim-motions-when-workspace-nav {
+    display: none;
+}
+
+/* ── Settings notice ─────────────────────────────────────────── */
+
+.vim-motions-settings-notice {
+    background-color: color-mix(in oklch, var(--color-orange) 10%, transparent);
+    border: 1px solid color-mix(in oklch, var(--color-orange) 25%, transparent);
+    border-radius: var(--callout-radius, var(--radius-s));
+    padding: var(--callout-padding, 12px 16px);
+    margin-bottom: 16px;
+}
+
+.vim-motions-settings-notice .vim-motions-notice-title {
+    display: flex;
+    align-items: center;
+    gap: var(--size-4-1, 4px);
+    color: var(--color-orange);
+    font-weight: var(--font-semibold, 600);
+}
+
+.vim-motions-settings-notice .vim-motions-notice-title .svg-icon {
+    width: 18px;
+    height: 18px;
+    color: var(--color-orange);
+}
+
+.vim-motions-settings-notice p {
+    margin: 6px 0 0;
+    font-size: var(--font-ui-small);
+    color: var(--text-muted);
+}
+
+.vim-motions-mode {
+    font-family: var(--font-monospace);
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.vim-motions-chord {
+    font-family: var(--font-monospace);
+    font-size: 12px;
+}
+
+.vim-motions-flash-match {
+    position: absolute;
+    left: var(--vim-motions-em-left, 0);
+    top: var(--vim-motions-em-top, 0);
+    width: var(--vim-motions-flash-w, 8px);
+    height: var(--vim-motions-flash-h, 16px);
+    background: var(--text-accent);
+    opacity: 0.25;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+.vim-motions-search-count {
+    font-family: var(--font-monospace);
+    font-size: 12px;
+    color: var(--text-muted);
+}
+
+.vim-motions-statusbar-end {
+    margin-right: auto;
+}
+
+/* --- Powerline-style status bar --- */
+
+.vim-motions-powerline {
+    padding: 0 8px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    margin-left: -5px;
+    line-height: var(--status-bar-font-size, 22px);
+}
+
+.vim-motions-powerline::after {
+    content: '';
+    display: inline-block;
+    position: relative;
+    left: 8px;
+    border-style: solid;
+    border-width: 13px 0 13px 8px;
+    background-color: var(--status-bar-background);
+}
+
+.vim-motions-powerline[data-vim-mode='normal'] {
+    color: var(--vim-pl-normal-fg, var(--text-on-accent, #1d2021));
+    background-color: var(--vim-pl-normal-bg, var(--color-blue, #7daea3));
+}
+.vim-motions-powerline[data-vim-mode='normal']::after {
+    border-color: transparent transparent transparent
+        var(--vim-pl-normal-bg, var(--color-blue, #7daea3));
+}
+
+.vim-motions-powerline[data-vim-mode='insert'] {
+    color: var(--vim-pl-insert-fg, var(--text-on-accent, #1d2021));
+    background-color: var(--vim-pl-insert-bg, var(--color-green, #a9b665));
+}
+.vim-motions-powerline[data-vim-mode='insert']::after {
+    border-color: transparent transparent transparent
+        var(--vim-pl-insert-bg, var(--color-green, #a9b665));
+}
+
+.vim-motions-powerline[data-vim-mode='visual'] {
+    color: var(--vim-pl-visual-fg, var(--text-on-accent, #1d2021));
+    background-color: var(--vim-pl-visual-bg, var(--color-orange, #d8a657));
+}
+.vim-motions-powerline[data-vim-mode='visual']::after {
+    border-color: transparent transparent transparent
+        var(--vim-pl-visual-bg, var(--color-orange, #d8a657));
+}
+
+.vim-motions-powerline[data-vim-mode='replace'] {
+    color: var(--vim-pl-replace-fg, var(--text-on-accent, #1d2021));
+    background-color: var(--vim-pl-replace-bg, var(--color-red, #ea6962));
+}
+.vim-motions-powerline[data-vim-mode='replace']::after {
+    border-color: transparent transparent transparent
+        var(--vim-pl-replace-bg, var(--color-red, #ea6962));
+}
+
+.vim-motions-powerline[data-vim-mode='v-line'] {
+    color: var(--vim-pl-v-line-fg, var(--text-on-accent, #1d2021));
+    background-color: var(--vim-pl-v-line-bg, var(--color-orange, #d8a657));
+}
+.vim-motions-powerline[data-vim-mode='v-line']::after {
+    border-color: transparent transparent transparent
+        var(--vim-pl-v-line-bg, var(--color-orange, #d8a657));
+}
+
+.vim-motions-powerline[data-vim-mode='v-block'] {
+    color: var(--vim-pl-v-block-fg, var(--text-on-accent, #1d2021));
+    background-color: var(--vim-pl-v-block-bg, var(--color-orange, #d8a657));
+}
+.vim-motions-powerline[data-vim-mode='v-block']::after {
+    border-color: transparent transparent transparent
+        var(--vim-pl-v-block-bg, var(--color-orange, #d8a657));
+}
+
+.vim-motions-powerline[data-vim-mode='command'] {
+    color: var(--vim-pl-command-fg, var(--text-on-accent, #1d2021));
+    background-color: var(--vim-pl-command-bg, var(--color-blue, #7daea3));
+}
+.vim-motions-powerline[data-vim-mode='command']::after {
+    border-color: transparent transparent transparent
+        var(--vim-pl-command-bg, var(--color-blue, #7daea3));
+}
+
+.vim-motions-powerline[data-vim-mode='search'] {
+    color: var(--vim-pl-search-fg, var(--text-on-accent, #1d2021));
+    background-color: var(--vim-pl-search-bg, var(--color-blue, #7daea3));
+}
+.vim-motions-powerline[data-vim-mode='search']::after {
+    border-color: transparent transparent transparent
+        var(--vim-pl-search-bg, var(--color-blue, #7daea3));
+}
+
+.vim-motions-powerline[data-vim-mode='select'] {
+    color: var(--vim-pl-select-fg, var(--text-on-accent, #1d2021));
+    background-color: var(--vim-pl-select-bg, var(--color-orange, #d8a657));
+}
+.vim-motions-powerline[data-vim-mode='select']::after {
+    border-color: transparent transparent transparent
+        var(--vim-pl-select-bg, var(--color-orange, #d8a657));
+}
+
+.vim-motions-powerline[data-vim-mode='vreplace'] {
+    color: var(--vim-pl-vreplace-fg, var(--text-on-accent, #1d2021));
+    background-color: var(--vim-pl-vreplace-bg, var(--color-red, #ea6962));
+}
+.vim-motions-powerline[data-vim-mode='vreplace']::after {
+    border-color: transparent transparent transparent
+        var(--vim-pl-vreplace-bg, var(--color-red, #ea6962));
+}
+
+.vim-motions-powerline[data-vim-mode='insert-normal'] {
+    color: var(--vim-pl-normal-fg, var(--text-on-accent, #1d2021));
+    background-color: var(--vim-pl-normal-bg, var(--color-blue, #7daea3));
+}
+.vim-motions-powerline[data-vim-mode='insert-normal']::after {
+    border-color: transparent transparent transparent
+        var(--vim-pl-normal-bg, var(--color-blue, #7daea3));
+}
+
+.vim-motions-easymotion {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 1000;
+}
+
+/* --- Modal for motions info --- */
+
+.vim-motions-info-modal-container.modal {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.vim-motions-info-modal-container.modal .modal-header-button.clickable-icon {
+    display: none;
+}
+
+.vim-motions-info-modal .modal-header {
+    display: none;
+}
+
+.vim-motions-info-modal-inner {
+    border: 1px solid var(--color-accent);
+    background-color: var(--modal-background);
+}
+
+.vim-motions-info-modal-title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: var(--font-monospace);
+    font-size: 14px;
+    color: var(--color-accent);
+    background: var(--modal-background);
+    padding: 0 8px;
+    z-index: 1;
+    white-space: nowrap;
+}
+
+.vim-motions-infor-modal.modal-content h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.vim-motions-info-modal table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--font-monospace);
+    font-size: 13px;
+}
+
+.vim-motions-info-modal th {
+    text-align: left;
+    padding: 4px 8px;
+    border-bottom: 1px solid var(--background-modifier-border);
+    color: var(--text-muted);
+    font-weight: 600;
+}
+
+.vim-motions-info-modal td {
+    padding: 3px 8px;
+    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 400px;
+}
+
+.vim-motions-info-modal tr:hover {
+    background: var(--background-modifier-hover);
+}
+
+/* --- Prompt modal --- */
+
+.vim-motions-prompt-modal-container {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    display: flex;
+    gap: 12px;
+    width: min(var(--dialog-max-width), calc(var(--dialog-width) * 2));
+    max-width: var(--dialog-max-width);
+}
+
+.vim-motions-prompt-modal-input,
+.vim-motions-prompt-modal-results,
+.vim-motions-prompt-modal-instructions {
+    border: 1px solid var(--color-accent);
+    background-color: var(--modal-background);
+    max-width: var(--dialog-max-width);
+}
+
+.vim-motions-prompt-modal-input .search-input-clear-button {
+    display: none;
+}
+
+.vim-motions-prompt-modal-results {
+    padding: 0;
+}
+
+.vim-motions-prompt-modal-results .suggestion-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.vim-motions-prompt-modal-results
+    .suggestion-item
+    .vim-motions-prompt-modal-suggestion-label {
+    width: 25%;
+    text-align: start;
+    font-family: var(--font-monospace);
+    font-size: 14px;
+}
+
+.vim-motions-prompt-modal-results
+    .suggestion-item
+    .vim-motions-prompt-modal-suggestion-description {
+    width: 75%;
+    text-align: end;
+    color: var(--text-muted);
+    font-family: var(--font-monospace);
+    font-size: 14px;
+}
+
+.vim-motions-prompt-modal-instructions .prompt-instructions {
+    font-family: var(--font-monospace);
+    font-size: 12px;
+    color: var(--text-muted);
+}
+
+.vim-motions-prompt-modal-container .vim-motions-prompt-modal-title {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: var(--font-monospace);
+    font-size: 14px;
+    color: var(--color-accent);
+    background: var(--modal-background);
+    padding: 0 8px;
+    z-index: 1;
+    white-space: nowrap;
+}
+
+/* --- Which-key --- */
+
+.vim-motions-which-key {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--background-primary);
+    border-top: 1px solid var(--background-modifier-border);
+    padding: 6px 12px;
+    z-index: 1000;
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+    max-height: 40%;
+    overflow-y: auto;
+}
+
+.vim-motions-which-key-title {
+    font-family: var(--font-monospace);
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-bottom: 4px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.vim-motions-which-key-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1px 16px;
+}
+
+.vim-motions-which-key-row {
+    display: flex;
+    gap: 8px;
+    font-size: 12px;
+    line-height: 1.5;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.vim-motions-which-key-key {
+    font-family: var(--font-monospace);
+    font-weight: bold;
+    color: var(--text-accent);
+    min-width: 24px;
+    flex-shrink: 0;
+    text-align: right;
+}
+
+.vim-motions-which-key-sep {
+    color: var(--text-faint);
+    flex-shrink: 0;
+}
+
+.vim-motions-which-key-cmd {
+    color: var(--text-muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.vim-motions-which-key-group .vim-motions-which-key-cmd {
+    color: var(--text-accent);
+    font-style: italic;
+}
+
+.vim-motions-which-key-icon {
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+}
+
+.vim-motions-which-key-icon .svg-icon {
+    width: 100%;
+    height: 100%;
+}
+
+.vim-motions-leader-binding-row .setting-item-control {
+    gap: 6px;
+}
+
+.vim-motions-leader-binding-row .setting-item-control input:first-child {
+    max-width: 60px;
+    font-family: var(--font-monospace);
+    text-align: center;
+}
+
+/* --- Oil confirm modal --- */
+
+.vim-motions-oil-confirm-modal .modal-header {
+    display: none;
+}
+
+.vim-motions-oil-confirm-summary {
+    font-family: var(--font-monospace);
+    font-size: 13px;
+    padding: 8px 12px 4px;
+    margin: 0;
+}
+
+.vim-motions-oil-confirm-section-title {
+    font-family: var(--font-monospace);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-muted);
+    padding: 4px 12px 2px;
+    margin: 0;
+}
+
+.vim-motions-oil-confirm-list {
+    list-style: none;
+    padding: 0 12px 4px;
+    margin: 0;
+    font-family: var(--font-monospace);
+    font-size: 12px;
+    color: var(--text-muted);
+}
+
+.vim-motions-oil-confirm-list li::before {
+    content: '  ';
+}
+
+.vim-motions-oil-confirm-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    padding: 8px 12px;
+    border-top: 1px solid var(--background-modifier-border);
+}
+
+.vim-motions-oil-confirm-btn-confirm,
+.vim-motions-oil-confirm-btn-cancel {
+    font-family: var(--font-monospace);
+    font-size: 13px;
+    padding: 4px 16px;
+    border: 1px solid var(--color-accent);
+    background: var(--modal-background);
+    color: var(--text-normal);
+    cursor: pointer;
+    border-radius: 0;
+}
+
+.vim-motions-oil-confirm-btn-confirm:hover {
+    background: var(--color-accent);
+    color: var(--text-on-accent);
+}
+
+.vim-motions-oil-confirm-btn-cancel:hover {
+    background: var(--background-modifier-hover);
+}
+
+.vim-motions-ex-suggest {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background: var(--background-primary);
+    border: 1px solid var(--background-modifier-border);
+    border-bottom: none;
+    font-family: var(--font-monospace);
+    font-size: 13px;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.vim-motions-ex-suggest-item {
+    padding: 3px 8px;
+    cursor: pointer;
+}
+
+.vim-motions-ex-suggest-item:hover,
+.vim-motions-ex-suggest-item.is-selected {
+    background: var(--background-modifier-hover);
+}
+
+.vim-motions-hint-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 10000;
+}
+
+.vim-motions-hint-label {
+    position: absolute;
+    left: var(--vim-motions-hint-left);
+    top: var(--vim-motions-hint-top);
+    background: var(--vim-motions-hint-bg, var(--text-accent));
+    color: var(--vim-motions-hint-fg, var(--text-on-accent));
+    font-family: var(--font-monospace);
+    font-weight: bold;
+    font-size: var(--vim-motions-hint-font-size, 14px);
+    line-height: 1;
+    padding: 1px 3px;
+    border-radius: 4px;
+    z-index: 10001;
+    pointer-events: none;
+    text-transform: lowercase;
+}
+
+.vim-motions-hint-label.is-dimmed {
+    opacity: 0.2;
+}
+
+.vim-motions-clipboard-helper {
+    position: fixed;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.vim-motions-hotkey-display {
+    font-family: var(--font-monospace);
+    margin-right: 8px;
+}
+
+.vim-motions-easymotion-shade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--background-primary);
+    opacity: 0.6;
+    pointer-events: none;
+    z-index: 999;
+}
+
+.vim-motions-easymotion-label {
+    position: absolute;
+    left: var(--vim-motions-em-left);
+    top: var(--vim-motions-em-top);
+    background: var(--vim-motions-em-bg, var(--text-accent));
+    color: var(--vim-motions-em-fg, var(--text-on-accent));
+    font-family: var(--font-monospace);
+    font-weight: bold;
+    font-size: var(--vim-motions-em-font-size, 14px);
+    line-height: 1;
+    padding: 1px 3px;
+    border-radius: 2px;
+    z-index: 1001;
+    pointer-events: none;
+}
+
+.vim-motions-easymotion-label-first {
+    font-weight: bold;
+}
+
+.vim-motions-easymotion-label-second {
+    opacity: 0.7;
+}
+
+/* --- Picker modal --- */
+
+.vim-motions-picker.modal {
+    border-radius: 2px;
+    background: transparent;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: min(var(--dialog-max-width), calc(var(--dialog-width) * 2));
+    max-width: var(--dialog-max-width);
+}
+
+.modal-container.mod-dim .vim-motions-picker.modal {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.vim-motions-picker .modal-content {
+    padding: 0;
+    width: 100%;
+    max-width: var(--dialog-max-width);
+}
+
+.vim-motions-picker .modal-header {
+    margin: 0;
+}
+
+.vim-motions-picker .modal-header-button.clickable-icon {
+    display: none;
+}
+
+.vim-motions-picker-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 60vh;
+}
+
+.vim-motions-picker-section {
+    position: relative;
+    margin-top: 10px;
+}
+
+.vim-motions-picker-title {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: var(--font-monospace);
+    font-size: 14px;
+    color: var(--color-accent);
+    background: var(--modal-background);
+    padding: 0 8px;
+    z-index: 1;
+    white-space: nowrap;
+}
+
+.vim-motions-picker-input {
+    width: 100%;
+    padding: 6px 12px;
+    border: none;
+    border-bottom: 1px solid var(--background-modifier-border);
+    background: var(--background-primary);
+    color: var(--text-normal);
+    font-size: 13px;
+    outline: none;
+    font-family: var(--font-monospace);
+}
+
+input.vim-motions-picker-input {
+    background-color: var(--modal-background);
+    border: 1px solid var(--color-accent);
+    border-radius: 0;
+}
+
+input.vim-motions-picker-input:active,
+input.vim-motions-picker-input:focus {
+    background-color: var(--modal-background);
+    border: 1px solid var(--color-accent);
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+}
+
+.vim-motions-picker-count {
+    padding: 2px 12px;
+    font-size: 11px;
+    font-family: var(--font-monospace);
+    color: var(--text-faint);
+    border: none;
+    min-height: 20px;
+}
+
+.vim-motions-picker-results {
+    overflow-y: auto;
+    max-height: 50vh;
+    border: 1px solid var(--color-accent);
+    background-color: var(--modal-background);
+}
+
+.vim-motions-picker-item {
+    padding: 3px 12px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.vim-motions-picker-item:hover {
+    background: var(--background-modifier-hover);
+}
+
+.vim-motions-picker-item.is-selected {
+    background: hsla(var(--interactive-accent-hsl), 0.15);
+}
+
+.vim-motions-picker-item .vim-motions-picker-item-label:before {
+    content: '> ';
+    opacity: 0;
+}
+
+.vim-motions-picker-item.is-selected .vim-motions-picker-item-label:before {
+    content: '> ';
+    opacity: 1;
+}
+
+.vim-motions-picker-item-label {
+    font-family: var(--font-monospace);
+    font-size: 13px;
+    color: var(--text-normal);
+}
+
+.vim-motions-picker-item-description {
+    font-family: var(--font-monospace);
+    font-size: 12px;
+    color: var(--text-muted);
+    text-align: end;
+}
+
+.vim-motions-picker-item mark {
+    color: var(--text-accent);
+    background: transparent;
+    font-weight: var(--font-semibold);
+}
+
+.vim-motions-picker-error {
+    padding: 8px 12px;
+    font-family: var(--font-monospace);
+    font-size: 12px;
+    color: var(--text-error);
+}
+
+.vim-motions-picker-empty {
+    padding: 8px 12px;
+    font-family: var(--font-monospace);
+    font-size: 12px;
+    color: var(--text-muted);
+    text-align: center;
+}
+
+/* --- Picker with preview --- */
+
+.vim-motions-picker-with-preview .modal-content {
+    max-width: 100%;
+}
+
+.vim-motions-picker-body {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    height: 50vh;
+    gap: 12px;
+}
+
+.vim-motions-picker-body > .vim-motions-picker-section {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.vim-motions-picker-with-preview .vim-motions-picker-results {
+    height: 50vh;
+}
+
+.vim-motions-picker-body > .vim-motions-picker-section:first-child {
+    flex: 0 1 auto;
+    width: max(25%, 200px);
+    min-width: 200px;
+    max-width: max(30%, 200px);
+}
+
+.vim-motions-picker-body > .vim-motions-picker-section:last-child {
+    flex: 1;
+    min-width: 200px;
+}
+
+.vim-motions-picker-preview {
+    height: 50vh;
+    overflow-y: auto;
+    border: 1px solid var(--color-accent);
+    border-radius: 0;
+    background: var(--background-secondary);
+    display: none;
+}
+
+.vim-motions-picker-with-preview .vim-motions-picker-preview {
+    display: block;
+}
+
+.vim-motions-picker-preview pre {
+    margin: 0;
+    padding: 8px 12px;
+    font-family: var(--font-monospace);
+    font-size: 12px;
+    color: var(--text-muted);
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.vim-motions-picker-preview-content {
+    padding: 8px 12px;
+    font-size: 12px;
+}
+
+.vim-motions-picker-preview-content.markdown-rendered {
+    --link-decoration: none;
+}
+
+.vim-motions-picker-preview-content.markdown-rendered a.internal-link,
+.vim-motions-picker-preview-content.markdown-rendered a.external-link {
+    pointer-events: none;
+    cursor: default;
+}
+
+.vim-motions-picker-preview-positional {
+    display: flex;
+    flex-direction: row;
+}
+
+.vim-motions-picker-preview-gutter {
+    flex-shrink: 0;
+    padding: 8px 0;
+    border-right: 1px solid var(--background-modifier-border);
+    user-select: none;
+}
+
+.vim-motions-picker-preview-line-number {
+    padding: 0 8px;
+    font-family: var(--font-monospace);
+    font-size: 12px;
+    line-height: var(--line-height-tight);
+    color: var(--text-faint);
+    text-align: right;
+    white-space: nowrap;
+}
+
+.vim-motions-picker-preview-line-number.is-target {
+    color: var(--text-accent);
+    font-weight: var(--font-semibold);
+    background: hsla(var(--interactive-accent-hsl), 0.08);
+}
+
+.vim-motions-picker-preview-positional .vim-motions-picker-preview-content {
+    flex: 1;
+    min-width: 0;
+    overflow-x: auto;
+}
+
+.vim-motions-picker-preview-code {
+    flex: 1;
+    min-width: 0;
+    overflow-x: auto;
+    margin: 0;
+    padding: 8px 12px;
+    font-family: var(--font-monospace);
+    font-size: 12px;
+    background: transparent;
+}
+
+.vim-motions-picker-preview-code-line {
+    line-height: var(--line-height-tight);
+    white-space: pre;
+    color: var(--text-muted);
+}
+
+.vim-motions-picker-preview-code-line.is-target {
+    color: var(--text-normal);
+    background: hsla(var(--interactive-accent-hsl), 0.08);
+}
+
+.vim-motions-picker-preview-empty {
+    padding: 8px 12px;
+    font-family: var(--font-monospace);
+    font-size: 12px;
+    color: var(--text-faint);
+    text-align: center;
+    font-style: italic;
+}
+
+.vim-motions-picker-preview-loading {
+    padding: 8px 12px;
+    font-family: var(--font-monospace);
+    font-size: 12px;
+    color: var(--text-faint);
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .vim-motions-picker-preview {
+        display: none;
+    }
+    .vim-motions-picker-with-preview .vim-motions-picker-preview {
+        display: none;
+    }
+    .vim-motions-picker-with-preview .modal-content {
+        max-width: none;
+    }
+}
+
+/* @settings
+
+name: Vim Motions
+id: vim-motions
+settings:
+    -
+        id: powerline-colors
+        title: Powerline status bar
+        description: Background and text colors for each Vim mode in the powerline status bar.
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: vim-pl-normal-bg
+        title: Normal mode background
+        type: variable-themed-color
+        format: hex
+        default-light: '#4878BE'
+        default-dark: '#7daea3'
+    -
+        id: vim-pl-normal-fg
+        title: Normal mode text
+        type: variable-themed-color
+        format: hex
+        default-light: '#ffffff'
+        default-dark: '#1d2021'
+    -
+        id: vim-pl-insert-bg
+        title: Insert mode background
+        type: variable-themed-color
+        format: hex
+        default-light: '#49A54D'
+        default-dark: '#a9b665'
+    -
+        id: vim-pl-insert-fg
+        title: Insert mode text
+        type: variable-themed-color
+        format: hex
+        default-light: '#ffffff'
+        default-dark: '#1d2021'
+    -
+        id: vim-pl-visual-bg
+        title: Visual mode background
+        type: variable-themed-color
+        format: hex
+        default-light: '#D4960A'
+        default-dark: '#d8a657'
+    -
+        id: vim-pl-visual-fg
+        title: Visual mode text
+        type: variable-themed-color
+        format: hex
+        default-light: '#ffffff'
+        default-dark: '#1d2021'
+    -
+        id: vim-pl-replace-bg
+        title: Replace mode background
+        type: variable-themed-color
+        format: hex
+        default-light: '#D44242'
+        default-dark: '#ea6962'
+    -
+        id: vim-pl-replace-fg
+        title: Replace mode text
+        type: variable-themed-color
+        format: hex
+        default-light: '#ffffff'
+        default-dark: '#1d2021'
+    -
+        id: vim-pl-v-line-bg
+        title: V-Line mode background
+        type: variable-themed-color
+        format: hex
+        default-light: '#D4960A'
+        default-dark: '#d8a657'
+    -
+        id: vim-pl-v-line-fg
+        title: V-Line mode text
+        type: variable-themed-color
+        format: hex
+        default-light: '#ffffff'
+        default-dark: '#1d2021'
+    -
+        id: vim-pl-v-block-bg
+        title: V-Block mode background
+        type: variable-themed-color
+        format: hex
+        default-light: '#D4960A'
+        default-dark: '#d8a657'
+    -
+        id: vim-pl-v-block-fg
+        title: V-Block mode text
+        type: variable-themed-color
+        format: hex
+        default-light: '#ffffff'
+        default-dark: '#1d2021'
+    -
+        id: vim-pl-command-bg
+        title: Command mode background
+        type: variable-themed-color
+        format: hex
+        default-light: '#4878BE'
+        default-dark: '#7daea3'
+    -
+        id: vim-pl-command-fg
+        title: Command mode text
+        type: variable-themed-color
+        format: hex
+        default-light: '#ffffff'
+        default-dark: '#1d2021'
+    -
+        id: vim-pl-search-bg
+        title: Search mode background
+        type: variable-themed-color
+        format: hex
+        default-light: '#4878BE'
+        default-dark: '#7daea3'
+    -
+        id: vim-pl-search-fg
+        title: Search mode text
+        type: variable-themed-color
+        format: hex
+        default-light: '#ffffff'
+        default-dark: '#1d2021'
+    -
+        id: vim-pl-select-bg
+        title: Select mode background
+        type: variable-themed-color
+        format: hex
+        default-light: '#D4960A'
+        default-dark: '#d8a657'
+    -
+        id: vim-pl-select-fg
+        title: Select mode text
+        type: variable-themed-color
+        format: hex
+        default-light: '#ffffff'
+        default-dark: '#1d2021'
+    -
+        id: vim-pl-vreplace-bg
+        title: V-Replace mode background
+        type: variable-themed-color
+        format: hex
+        default-light: '#D44242'
+        default-dark: '#ea6962'
+    -
+        id: vim-pl-vreplace-fg
+        title: V-Replace mode text
+        type: variable-themed-color
+        format: hex
+        default-light: '#ffffff'
+        default-dark: '#1d2021'
+    -
+        id: label-colors
+        title: Jump labels
+        description: Colors for EasyMotion and hint mode labels.
+        type: heading
+        level: 2
+        collapsed: true
+    -
+        id: vim-motions-em-bg
+        title: EasyMotion label background
+        type: variable-themed-color
+        format: hex
+        default-light: '#705dcf'
+        default-dark: '#7f6df2'
+    -
+        id: vim-motions-em-fg
+        title: EasyMotion label text
+        type: variable-themed-color
+        format: hex
+        default-light: '#ffffff'
+        default-dark: '#ffffff'
+    -
+        id: vim-motions-hint-bg
+        title: Hint mode label background
+        type: variable-themed-color
+        format: hex
+        default-light: '#705dcf'
+        default-dark: '#7f6df2'
+    -
+        id: vim-motions-hint-fg
+        title: Hint mode label text
+        type: variable-themed-color
+        format: hex
+        default-light: '#ffffff'
+        default-dark: '#ffffff'
+*/
+
+/* --- Oil view --- */
+
+.vim-motions-oil-view {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.vim-motions-oil-view .cm-editor {
+    padding: var(--file-margins);
+}
+
+.vim-motions-oil-view .cm-editor .cm-scroller {
+    padding: 0;
+}
+
+.vim-motions-oil-editor {
+    flex: 1;
+}
+
+/* --- Yank highlight --- */
+
+.vim-motions-yank-highlight {
+    background-color: var(
+        --vim-motions-yank-bg,
+        color-mix(in oklch, var(--text-accent) 40%, transparent)
+    );
+    border-radius: var(--radius-s, 2px);
+}
+
+.vim-motions-yank-highlight-fade {
+    animation: vim-motions-yank-fade var(--vim-motions-yank-duration, 200ms)
+        ease-out forwards;
+}
+
+@keyframes vim-motions-yank-fade {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .vim-motions-yank-highlight-fade {
+        animation: none;
+    }
+}
+
+.vim-motions-picker-group-header {
+    padding: 4px 12px 2px;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid var(--background-modifier-border);
+    pointer-events: none;
+    user-select: none;
+}
+
+/* --- Sign column (vim marks gutter) --- */
+
+.vim-motions-sign-column .cm-gutterElement {
+    min-width: 2ch;
+    padding: 0 2px;
+    text-align: center;
+}
+
+.vim-motions-sign-marker {
+    font-family: var(--font-monospace);
+    font-size: var(--font-ui-smaller);
+    font-weight: 600;
+    line-height: inherit;
+    opacity: 0.85;
+}
+
+.vim-motions-sign-marker-local {
+    color: var(--text-accent);
+}
+
+.vim-motions-sign-marker-global {
+    color: var(--text-muted);
+}
+
+.vim-motions-sign-spacer {
+    font-family: var(--font-monospace);
+    font-size: var(--font-ui-smaller);
+    font-weight: 600;
+    line-height: inherit;
+    visibility: hidden;
+}
+
+/* --- Line number gutter --- */
+
+.vim-motions-line-numbers .cm-gutterElement {
+    min-width: 3ch;
+    text-align: right;
+    padding: 0 4px 0 0;
+}
+
+.vim-motions-line-num {
+    font-family: var(--font-monospace);
+    font-size: var(--font-ui-smaller);
+    color: var(--text-faint);
+    line-height: inherit;
+}
+
+.vim-motions-line-num-current {
+    color: var(--text-normal);
+    font-weight: 600;
+}
+
+.vim-motions-line-numbers-active .cm-lineNumbers {
+    display: none;
+}
+
+/* --- Cursor line highlight --- */
+
+.vim-motions-cursorline {
+    background-color: var(
+        --vim-motions-cursorline-bg,
+        color-mix(in oklch, var(--text-accent) 6%, transparent)
+    );
+}
+
+/* `cursorlineopt=screenline` draws a measured rectangle over the cursor's
+   display row instead of a line decoration, so it needs its own stacking
+   context below the text. */
+.cm-editor .vim-motions-cursorline-layer {
+    z-index: -1;
+    contain: size style;
+}
+
+.cm-editor .vim-motions-cursorline-layer .vim-motions-cursorline {
+    position: absolute;
+    pointer-events: none;
+}
+
+/* --- Animated cursor --- */
+
+.vim-motions-animated-cursor-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 15;
+}
+
+/* --- Fold column --- */
+
+.vim-motions-fold-column .cm-gutterElement {
+    min-width: 1ch;
+    padding: 0 1px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.vim-motions-fold-marker-open,
+.vim-motions-fold-marker-folded {
+    font-family: var(--font-monospace);
+    font-size: 0.85em;
+    color: var(--text-faint);
+    line-height: inherit;
+}
+
+.vim-motions-fold-marker-open:hover,
+.vim-motions-fold-marker-folded:hover {
+    color: var(--text-normal);
+}
+
+/* --- Statuscolumn (unified gutter) --- */
+
+.vim-motions-statuscolumn .cm-gutterElement {
+    display: flex;
+    align-items: baseline;
+    padding: 0 2px;
+}
+
+.vim-motions-stc-row {
+    display: flex;
+    align-items: baseline;
+    gap: 0;
+}
+
+.vim-motions-stc-line-number,
+.vim-motions-stc-relative-number {
+    font-family: var(--font-monospace);
+    font-size: var(--font-ui-smaller);
+    color: var(--text-faint);
+    line-height: inherit;
+    text-align: right;
+    min-width: 2ch;
+    padding: 0 1px;
+}
+
+.vim-motions-stc-line-number.vim-motions-line-num-current,
+.vim-motions-stc-relative-number.vim-motions-line-num-current {
+    color: var(--text-normal);
+    font-weight: 600;
+}
+
+.vim-motions-stc-signs {
+    font-family: var(--font-monospace);
+    font-size: var(--font-ui-smaller);
+    font-weight: 600;
+    line-height: inherit;
+    opacity: 0.85;
+    min-width: 2ch;
+    text-align: center;
+    padding: 0 1px;
+}
+
+.vim-motions-stc-fold {
+    font-family: var(--font-monospace);
+    font-size: 0.85em;
+    color: var(--text-faint);
+    line-height: inherit;
+    cursor: pointer;
+    min-width: 1ch;
+    text-align: center;
+}
+
+.vim-motions-stc-fold:hover {
+    color: var(--text-normal);
+}
+
+.vim-motions-stc-separator {
+    flex-grow: 1;
+}
+
+.vim-motions-stc-literal {
+    font-family: var(--font-monospace);
+    font-size: var(--font-ui-smaller);
+    line-height: inherit;
+}
+
+/* --- Mobile gutter width reduction --- */
+
+@media (max-width: 600px) {
+    .vim-motions-statuscolumn .cm-gutterElement {
+        padding: 0 1px;
+    }
+    .vim-motions-stc-line-number,
+    .vim-motions-stc-relative-number,
+    .vim-motions-stc-signs {
+        font-size: var(--font-smallest);
+        min-width: 1.5ch;
+    }
+    .vim-motions-sign-column .cm-gutterElement {
+        min-width: 1.5ch;
+        padding: 0 1px;
+    }
+    .vim-motions-sign-marker {
+        font-size: var(--font-smallest);
+    }
+    .vim-motions-line-numbers .cm-gutterElement {
+        min-width: 2ch;
+        padding: 0 2px 0 0;
+    }
+    .vim-motions-line-num {
+        font-size: var(--font-smallest);
+    }
+}
+
+/* ── Textarea vim overlay ──────────────────────────────────── */
+
+.vim-motions-textarea-hidden {
+    visibility: hidden;
+    position: absolute;
+    height: 0;
+    overflow: hidden;
+}
+
+.vim-motions-textarea-overlay {
+    display: inline-block;
+    border: 1px solid var(--background-modifier-border);
+    border-radius: var(--radius-s);
+    overflow: auto;
+}
+
+.vim-motions-textarea-overlay .cm-editor {
+    background: var(--background-primary);
+    font-size: inherit;
+}
+
+.vim-motions-textarea-overlay .cm-editor .cm-scroller {
+    padding: var(--size-4-1) var(--size-4-2);
+    overflow: auto;
+}
+
+.vim-motions-textarea-overlay .cm-editor .cm-gutters {
+    display: none;
+}
+
+/* Undo tree view */
+.vim-motions-undo-tree-view {
+    padding: 8px;
+    font-family: var(--font-monospace);
+    font-size: var(--font-smaller);
+    overflow-y: auto;
+    height: 100%;
+    user-select: none;
+}
+
+.vim-motions-undo-node {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 2px 4px;
+    border-radius: 4px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.vim-motions-undo-node:hover {
+    background-color: var(--background-modifier-hover);
+}
+
+.vim-motions-undo-node--current {
+    background-color: var(--background-modifier-active-hover);
+    font-weight: 600;
+}
+
+.vim-motions-undo-node--selected {
+    outline: 1px solid var(--interactive-accent);
+    outline-offset: -1px;
+}
+
+.vim-motions-undo-connector {
+    color: var(--text-faint);
+    width: 16px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.vim-motions-undo-marker {
+    flex-shrink: 0;
+    width: 12px;
+    text-align: center;
+}
+
+.vim-motions-undo-node--current .vim-motions-undo-marker {
+    color: var(--interactive-accent);
+}
+
+.vim-motions-undo-node--saved .vim-motions-undo-marker {
+    color: var(--text-success);
+}
+
+.vim-motions-undo-seq {
+    color: var(--text-muted);
+    min-width: 24px;
+}
+
+.vim-motions-undo-time {
+    color: var(--text-muted);
+}
+
+.vim-motions-undo-change {
+    color: var(--text-faint);
+}
+
+.vim-motions-undo-flags {
+    color: var(--text-success);
+    font-size: var(--font-smallest);
+}
+
+.vim-motions-undo-branch-indicator {
+    color: var(--text-accent);
+    font-size: var(--font-smallest);
+}
+
+.vim-motions-undo-empty {
+    color: var(--text-faint);
+    padding: 16px;
+    text-align: center;
+}
+
+.vim-motions-undo-preview {
+    border-top: 1px solid var(--background-modifier-border);
+    padding: 8px;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.vim-motions-undo-preview-label {
+    color: var(--text-normal);
+    font-weight: 500;
+}
+
+.vim-motions-undo-preview-summary {
+    color: var(--text-muted);
+}
+
+.vim-motions-undo-branch-toggle {
+    cursor: pointer;
+    color: var(--text-faint);
+    width: 12px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.vim-motions-undo-branch-toggle:hover {
+    color: var(--text-accent);
+}
+
+.vim-motions-input-modal-input {
+    width: 100%;
+    margin-top: 8px;
+}
