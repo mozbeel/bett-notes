@@ -182,11 +182,19 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "35b32ffb3456d83a",
+  "active": "0c6c988ba1ca452d",
   "lastOpenFiles": [
+    "Adam/POSLogic/Temp.md",
+    "Adam/BWM/Grundsaetze.md",
+    "Adam/BWM/BuisinessTypes.md",
+    "Adam/BWM/BalanceSheetOverview.md",
+    "Adam/POSLogic",
+    "Adam/BWM",
+    "Adam",
     "CABS/Motherboard Architecture.md",
     "CABS/ARM.md",
     "Misc/Top 5 Hollow Knight NPCs.md",
@@ -217,8 +225,6 @@
     "BWM/Business/Company Register.md",
     "BWM/Business",
     "BWM/Accounting/Legal Basis for Assessement.md",
-    "BWM/Accounting",
-    "Willkommen.md",
-    "BWM"
+    "Willkommen.md"
   ]
 }
