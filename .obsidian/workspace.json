@@ -37,15 +37,12 @@
             "id": "c2be920118e1edbc",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "image",
               "state": {
-                "aFile": "Misc/Top 5 Hollow Knight NPCs.md",
-                "bFile": "Misc/Top 5 Hollow Knight NPCs.md",
-                "aRef": "HEAD",
-                "bRef": ""
+                "file": "Misc/img/tux_style_penguin_in_bin.png"
               },
-              "icon": "diff",
-              "title": "Diff: Top 5 Hollow Knight NPCs  (Index)"
+              "icon": "lucide-image",
+              "title": "tux_style_penguin_in_bin"
             }
           }
         ],
@@ -225,13 +222,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c2be920118e1edbc",
+  "active": "0c6c988ba1ca452d",
   "lastOpenFiles": [
+    "Misc/img/tux_style_penguin_in_bin.png",
     "conflict-files-obsidian-git.md",
+    "Misc/Top 5 most annoying operating systems.md",
     "Misc/img/Pasted image 20260922161308.png",
     "Misc/Top 5 cato (猫).md",
-    "tux_style_penguin_in_bin.png",
-    "Top 5 most annoying operating systems.md",
     "Misc/img/Pasted image 20260922161724.png",
     "Misc/img/Pasted image 20260922161710.png",
     "Misc/img/Pasted image 20260922161706.png",
