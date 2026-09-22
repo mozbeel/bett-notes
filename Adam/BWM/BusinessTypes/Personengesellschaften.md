@@ -1,4 +1,4 @@
-
+#BWM #Business 
 **Cooperation (OG=Unlimited Partnership)**
 
 - minimum 2 fully liable people

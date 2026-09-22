@@ -1,3 +1,4 @@
+#BWM #Business
 - A sole trader can not have partners, but can have employees.
 
 - You dont have to register in the Firmenbuch until you make more than 1 mil in a year.
