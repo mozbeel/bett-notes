@@ -4,13 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "2953c4dd5be79ada",
+        "id": "fa892e8c24606f98",
         "type": "tabs",
         "children": [
           {
-            "id": "e1a2a6a6ec8d6f62",
+            "id": "650ca53f9bbd2fca",
             "type": "leaf",
             "state": {
+<<<<<<< HEAD
               "type": "markdown",
               "state": {
                 "file": "Misc/Top 5 Hollow Knight NPCs.md",
@@ -33,6 +34,12 @@
               },
               "icon": "lucide-file",
               "title": "Top 5 BORB"
+=======
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+>>>>>>> 040875eda06f0990f33251205d06c7e4e76e4fff
             }
           }
         ],
@@ -111,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "BWM/Accounting/Assessing Values.md",
+                "file": "Adam/BWM/BusinessTypes/Einzelunternehmen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +128,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rückverweise auf Assessing Values"
+              "title": "Backlinks"
             }
           },
           {
@@ -145,7 +152,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
+                "useHierarchy": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -181,13 +188,23 @@
               "icon": "lucide-list",
               "title": "Gliederung von Assessing Values"
             }
+          },
+          {
+            "id": "5fca7a855ded293f",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,6 +215,7 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
+<<<<<<< HEAD
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:New drawing": false
     }
@@ -216,18 +234,50 @@
     "BWM/Business/Sole Trader.md",
     "BWM/Business/OG.md",
     "BWM/Business/KG.md",
+=======
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "650ca53f9bbd2fca",
+  "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "Misc/img/Pasted image 20260922143546.png",
+    "Misc/img/Pasted image 20260922143906.png",
+    "Misc/img/Pasted image 20260922144225.png",
+    "Misc/img/Pasted image 20260922144052.png",
+    "Misc/img/Pasted image 20260922143746.png",
+    "Misc/img/Pasted image 20260922143613.png",
+    "Misc/Top 5 most annoying  Pokemon Cards.md",
+    "Misc/Top 5 Hollow Knight NPCs.md",
+    "Adam/POSLogic/Temp.md",
+    "Adam/BWM/Grundsaetze.md",
+    "Adam/BWM/BalanceSheetOverview.md",
+>>>>>>> 040875eda06f0990f33251205d06c7e4e76e4fff
     "Adam/BWM/BusinessTypes/Personengesellschaften.md",
     "Adam/BWM/BusinessTypes/Einzelunternehmen.md",
     "Adam/BWM/BusinessTypes/BusinessTypes.md",
+    "BWM/Business/OG.md",
     "Adam/BWM/BusinessTypes",
+<<<<<<< HEAD
     "Misc/img/Pasted image 20260922144225.png",
     "Misc/img/Pasted image 20260922144052.png",
     "Misc/img/Pasted image 20260922143906.png",
     "Misc/img/Pasted image 20260922143746.png",
     "Misc/img/Pasted image 20260922143613.png",
     "Adam/BWM/Grundsaetze.md",
+=======
+    "BWM/Business/Sole Trader.md",
+    "BWM/Business/Legal Forms Of Businesses.md",
+    "BWM/Business/KG.md",
+    "Adam/BWM/Einzelunternehmen.md",
+    "BWM/Business/Company Register.md",
+    "BWM/Accounting/Assessing Values.md",
+>>>>>>> 040875eda06f0990f33251205d06c7e4e76e4fff
     "Adam/BWM/BuisinessTypes.md",
-    "Adam/BWM/BalanceSheetOverview.md",
+    "Adam/POSLogic",
+    "Adam/BWM",
+    "Adam",
     "CABS/Motherboard Architecture.md",
     "CABS/ARM.md",
     "README.md",
@@ -239,15 +289,15 @@
     "CABS/RISC.md",
     "BWM/Accounting/Balance Sheet.md",
     "CABS",
+<<<<<<< HEAD
     "BWM/Accounting/Assessing Values.md",
     "BWM/Business/Legal Forms Of Businesses.md",
     "POS/Logics/Logic.md",
     "POS/Logics/Informatics.md",
+=======
+>>>>>>> 040875eda06f0990f33251205d06c7e4e76e4fff
     "POS/Logics/Logic",
     "POS/Logics",
-    "POS",
-    "BWM/Business",
-    "BWM/Accounting",
-    "BWM"
+    "POS"
   ]
 }

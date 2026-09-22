@@ -1,3 +1,4 @@
+#POS
 ### propositional logic
 
 - can something be allocated (answered with true or false)

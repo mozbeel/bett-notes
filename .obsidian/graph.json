@@ -8,52 +8,66 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
+      "query": "path:Adam  ",
+      "color": {
+        "a": 1,
+        "rgb": 11621088
+      }
+    },
+    {
+      "query": "path:Benedikt",
+      "color": {
+        "a": 1,
+        "rgb": 14701233
+      }
+    },
+    {
       "query": "tag:#Business  ",
-      "color": {
-        "a": 1,
-        "rgb": 14701138
-      }
-    },
-    {
-      "query": "tag:#Accounting",
-      "color": {
-        "a": 1,
-        "rgb": 14725458
-      }
-    },
-    {
-      "query": "tag:#WMC",
       "color": {
         "a": 1,
         "rgb": 11657298
       }
     },
     {
-      "query": "tag:#NSCS",
+      "query": "tag:#Accounting",
       "color": {
         "a": 1,
         "rgb": 5431378
       }
     },
     {
-      "query": "tag:#POS",
+      "query": "tag:#CABS  ",
       "color": {
         "a": 1,
         "rgb": 5431473
       }
     },
     {
-      "query": "tag:#CABS",
+      "query": "tag:#Logic  ",
       "color": {
         "a": 1,
         "rgb": 5419488
       }
     },
     {
+      "query": "tag:#POS",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    },
+    {
+      "query": "tag:#CABS  ",
+      "color": {
+        "a": 1,
+        "rgb": 16304519
+      }
+    },
+    {
       "query": "path:Misc",
       "color": {
         "a": 1,
-        "rgb": 13750737
+        "rgb": 10066329
       }
     }
   ],
@@ -67,6 +81,6 @@
   "repelStrength": 10,
   "linkStrength": 0.849706803759338,
   "linkDistance": 250,
-  "scale": 8,
+  "scale": 0.7855613011744031,
   "close": false
 }
