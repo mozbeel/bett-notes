@@ -1,7 +1,8 @@
-#BWM #Business #P29
+#BWM #Business #P29 #LegalForms
 How many partners? 0. You can employ people. No business partners
 
 Pros:
+- No minimum capital
 - Doesn't have to register in the [[Company Register]]
 - All profit belongs to you
 - ESt (Einkommensteuer, EStG Einkommensteuergesetz, income tax law): progressive way, % will raise the more income you make

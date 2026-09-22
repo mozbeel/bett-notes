@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "72bb836f770fe37a",
+        "id": "e4308945e2c440a9",
         "type": "tabs",
         "children": [
           {
-            "id": "9f4db77394afbb68",
+            "id": "6d51e5ebb881621c",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "conflict-files-obsidian-git.md",
-                "bFile": "conflict-files-obsidian-git.md",
-                "aRef": ""
+                "file": "BWM/Business/OG.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: conflict-files-obsidian-git  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "OG"
             }
           }
         ]
@@ -96,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "BWM/Business/OG.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,14 +197,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9f4db77394afbb68",
+  "active": "6d51e5ebb881621c",
   "lastOpenFiles": [
     "BWM/Business/Sole Trader.md",
-    "conflict-files-obsidian-git.md",
+    "BWM/Business/OG.md",
+    "BWM/Business/Legal Forms Of Businesses.md",
+    "BWM/Business/KG.md",
     "Adam/POSLogic/Temp.md",
+    "conflict-files-obsidian-git.md",
     "Adam/BWM/Einzelunternehmen.md",
     "BWM/Business/Company Register.md",
-    "BWM/Business/Legal Forms Of Businesses.md",
     "BWM/Accounting/Assessing Values.md",
     "Misc/Top 5 Hollow Knight NPCs.md",
     "Adam/BWM/Grundsaetze.md",
@@ -237,7 +240,6 @@
     "POS/Logics",
     "POS",
     "BWM/Business",
-    "BWM/Accounting/Legal Basis for Assessement.md",
-    "Willkommen.md"
+    "BWM/Accounting/Legal Basis for Assessement.md"
   ]
 }
