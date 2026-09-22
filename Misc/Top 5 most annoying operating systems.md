@@ -1,4 +1,4 @@
 1.
-linux
-![[tux_style_penguin_in_bin.png]]
- the rest good
+windows
+![[Pasted image 20260922163401.png]]
+ the rest good except OSX

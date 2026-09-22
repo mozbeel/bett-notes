@@ -13,40 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc/Top 5 cato (猫).md",
+                "file": "Misc/Top 5 most annoying operating systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Top 5 cato (猫)"
-            }
-          },
-          {
-            "id": "db41882d973499fc",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Misc/img/Pasted image 20260922161308.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260922161308"
-            }
-          },
-          {
-            "id": "c2be920118e1edbc",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Misc/img/tux_style_penguin_in_bin.png"
-              },
-              "icon": "lucide-image",
-              "title": "tux_style_penguin_in_bin"
+              "title": "Top 5 most annoying operating systems"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -222,8 +197,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c6c988ba1ca452d",
+  "active": "650ca53f9bbd2fca",
   "lastOpenFiles": [
+    "Pasted image 20260922163401.png",
     "Misc/img/tux_style_penguin_in_bin.png",
     "conflict-files-obsidian-git.md",
     "Misc/Top 5 most annoying operating systems.md",
