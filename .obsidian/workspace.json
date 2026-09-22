@@ -186,8 +186,15 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e1a2a6a6ec8d6f62",
+  "active": "0c6c988ba1ca452d",
   "lastOpenFiles": [
+    "BWM/Business/Sole Trader.md",
+    "BWM/Business/OG.md",
+    "BWM/Business/KG.md",
+    "Adam/BWM/BusinessTypes/Personengesellschaften.md",
+    "Adam/BWM/BusinessTypes/Einzelunternehmen.md",
+    "Adam/BWM/BusinessTypes/BusinessTypes.md",
+    "Adam/BWM/BusinessTypes",
     "Misc/Top 5 Hollow Knight NPCs.md",
     "Misc/Top 5 most annoying  Pokemon Cards.md",
     "Misc/img/Pasted image 20260922144225.png",
@@ -224,11 +231,8 @@
     "POS/Logics/Logic",
     "POS/Logics",
     "POS",
-    "BWM/Business/Company Register.md",
     "BWM/Business",
-    "BWM/Accounting/Legal Basis for Assessement.md",
     "BWM/Accounting",
-    "Willkommen.md",
     "BWM"
   ]
 }
