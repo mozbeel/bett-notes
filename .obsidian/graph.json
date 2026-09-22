@@ -67,7 +67,7 @@
       "query": "path:Misc",
       "color": {
         "a": 1,
-        "rgb": 10066329
+        "rgb": 16711643
       }
     }
   ],
@@ -81,6 +81,6 @@
   "repelStrength": 10,
   "linkStrength": 0.849706803759338,
   "linkDistance": 250,
-  "scale": 0.7855613011744031,
+  "scale": 0.7550773220321679,
   "close": false
 }
