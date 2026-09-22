@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "2953c4dd5be79ada",
+        "id": "72bb836f770fe37a",
         "type": "tabs",
         "children": [
           {
-            "id": "35b32ffb3456d83a",
+            "id": "9f4db77394afbb68",
             "type": "leaf",
             "state": {
               "type": "split-diff-view",
               "state": {
-                "aFile": ".obsidian/app.json",
-                "bFile": ".obsidian/app.json",
+                "aFile": "conflict-files-obsidian-git.md",
+                "bFile": "conflict-files-obsidian-git.md",
                 "aRef": ""
               },
               "icon": "diff",
-              "title": "Diff: app.json  (Working Tree)"
+              "title": "Diff: conflict-files-obsidian-git  (Working Tree)"
             }
           }
         ]
@@ -196,14 +196,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "35b32ffb3456d83a",
+  "active": "9f4db77394afbb68",
   "lastOpenFiles": [
-    "BWM/Business/Company Register.md",
     "BWM/Business/Sole Trader.md",
+    "conflict-files-obsidian-git.md",
+    "Adam/POSLogic/Temp.md",
+    "Adam/BWM/Einzelunternehmen.md",
+    "BWM/Business/Company Register.md",
     "BWM/Business/Legal Forms Of Businesses.md",
     "BWM/Accounting/Assessing Values.md",
     "Misc/Top 5 Hollow Knight NPCs.md",
-    "Adam/POSLogic/Temp.md",
     "Adam/BWM/Grundsaetze.md",
     "Adam/BWM/BuisinessTypes.md",
     "Adam/BWM/BalanceSheetOverview.md",
