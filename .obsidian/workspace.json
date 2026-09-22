@@ -20,8 +20,36 @@
               "icon": "lucide-file",
               "title": "Top 5 cato (猫)"
             }
+          },
+          {
+            "id": "db41882d973499fc",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Misc/img/Pasted image 20260922161308.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260922161308"
+            }
+          },
+          {
+            "id": "c2be920118e1edbc",
+            "type": "leaf",
+            "state": {
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "Misc/Top 5 Hollow Knight NPCs.md",
+                "bFile": "Misc/Top 5 Hollow Knight NPCs.md",
+                "aRef": "HEAD",
+                "bRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Top 5 Hollow Knight NPCs  (Index)"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -197,23 +225,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "650ca53f9bbd2fca",
+  "active": "c2be920118e1edbc",
   "lastOpenFiles": [
-    "Pasted image 20260922161724.png",
-    "Pasted image 20260922161710.png",
-    "Pasted image 20260922161706.png",
-    "Pasted image 20260922161544.png",
-    "Pasted image 20260922161523.png",
-    "Pasted image 20260922161438.png",
-    "Pasted image 20260922161326.png",
-    "Pasted image 20260922161308.png",
-    "Misc/img/Pasted image 20260922161207.png",
-    "Misc/img/Pasted image 20260922161129.png",
-    "Misc/img/Pasted image 20260922144225.png",
+    "conflict-files-obsidian-git.md",
+    "Misc/img/Pasted image 20260922161308.png",
     "Misc/Top 5 cato (猫).md",
+    "tux_style_penguin_in_bin.png",
+    "Top 5 most annoying operating systems.md",
+    "Misc/img/Pasted image 20260922161724.png",
+    "Misc/img/Pasted image 20260922161710.png",
+    "Misc/img/Pasted image 20260922161706.png",
+    "Misc/img/Pasted image 20260922161544.png",
+    "Misc/img/Pasted image 20260922161523.png",
+    "Misc/img/Pasted image 20260922161438.png",
+    "Misc/img/Pasted image 20260922161326.png",
+    "Misc/img/Pasted image 20260922161207.png",
     "Misc/Top 5 most annoying  Pokemon Cards.md",
     "README.md",
-    "conflict-files-obsidian-git.md",
     "Misc/Top 5 Hollow Knight NPCs.md",
     "Adam/POSLogic/Temp.md",
     "Adam/BWM/Grundsaetze.md",
@@ -240,7 +268,6 @@
     "CABS/Instruction Sets.md",
     "CABS/CISC.md",
     "CABS/ISA.md",
-    "CABS/RISC.md",
     "CABS",
     "POS/Logics/Logic",
     "POS/Logics",
