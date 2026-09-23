@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc/Top 5 most annoying operating systems.md",
+                "file": "Misc/Top 5 cato (猫).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Top 5 most annoying operating systems"
+              "title": "Top 5 cato (猫)"
             }
           }
         ]
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Misc/Top 5 most annoying operating systems.md",
+                "file": "Misc/Top 5 cato (猫).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Misc/Top 5 most annoying operating systems.md",
+                "file": "Misc/Top 5 cato (猫).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Misc/Top 5 most annoying operating systems.md",
+                "file": "Misc/Top 5 cato (猫).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -191,5 +191,9 @@
     }
   },
   "active": "640ddaafcd6a6b45",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Misc/Top 5 Hollow Knight NPCs.md",
+    "Misc/Top 5 most annoying operating systems.md",
+    "Misc/Top 5 cato (猫).md"
+  ]
 }

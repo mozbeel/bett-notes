@@ -1,5 +1,5 @@
-![[Pasted image 20260922161129.png]]
-Honorable mention
+
+
 
 5.smoil
 ![[Pasted image 20260922161308.png]]
