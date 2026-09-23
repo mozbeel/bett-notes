@@ -11,12 +11,14 @@
             "id": "ef2741ddaae88b6b",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Img/Pasted image 20260923125432.png"
+                "file": "BWM/Business/KG.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260923125432"
+              "icon": "lucide-file",
+              "title": "KG"
             }
           }
         ]
@@ -195,12 +197,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c6c988ba1ca452d",
+  "active": "ef2741ddaae88b6b",
   "lastOpenFiles": [
+    "BWM/Business/OG.md",
+    "BWM/Business/KG.md",
+    "Img/Pasted image 20260923125432.png",
+    "Pasted image 20260923140931.png",
+    "Pasted image 20260923140907.png",
+    "Pasted image 20260923140837.png",
+    "Benedikt/Geschichte/Code of Hammurabi.md",
     "Img",
     "conflict-files-obsidian-git.md",
     "History/Laws.md",
-    "Img/Pasted image 20260923125432.png",
     "Misc/img/tux_style_penguin_in_bin 1.png",
     "Benedikt/BWM/Unbenannt.md",
     "Benedikt/Geschichte/Sources.md",
@@ -222,7 +230,6 @@
     "History",
     "BWM/Accounting/Assessing Values.md",
     "BWM/Business/Company Register.md",
-    "BWM/Business/OG.md",
     "BWM/Business/Legal Forms Of Businesses.md",
     "BWM/Accounting/Legal Basis for Assessement.md",
     "BWM/Business/Sole Trader.md",
@@ -234,14 +241,9 @@
     "Misc/img/Pasted image 20260922092728.png",
     "Misc/img/Pasted image 20260922092520.png",
     "Misc/img/Pasted image 20260922092255.png",
-    "Misc/img/Pasted image 20260922091536.png",
-    "Misc/img/Pasted image 20260922091508.png",
-    "Misc/img/Pasted image 20260922091426.png",
     "Misc/Top 5 most annoying  Pokemon Cards.md",
     "README.md",
     "Adam/POSLogic/Temp.md",
-    "Adam/BWM/Grundsaetze.md",
-    "Adam/BWM/BusinessTypes",
-    "Adam/POSLogic"
+    "Adam/BWM/BusinessTypes"
   ]
 }
