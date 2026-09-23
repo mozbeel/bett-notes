@@ -1,4 +1,3 @@
-#BWM #Accounting 
 ### Aktiv
 
 - **A.** Anlagevermoegen (Fixed Assets)
@@ -40,6 +39,8 @@ booked with a different account.
 one time loss, not yearly.
 e.g. car crash -> repairing car -> not a new car = value goes down
 
+### cost calculation
 
+Price of item - discounts (Skonto, Rabatte, etc.) + Service costs = price to be deprecated
 
 

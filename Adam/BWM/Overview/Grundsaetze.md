@@ -1,4 +1,3 @@
-#BWM #Accounting 
 
 - **Grundsatz der Bilanzstetigkeit**: Der Unternehmer muss die entschiedene Bewertungsmethode beibehalten.
 
