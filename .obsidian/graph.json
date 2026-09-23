@@ -67,7 +67,14 @@
       "query": "path:Misc",
       "color": {
         "a": 1,
-        "rgb": 10066329
+        "rgb": 16711643
+      }
+    },
+    {
+      "query": "tag:#History",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
       }
     }
   ],
@@ -77,10 +84,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 0.849706803759338,
-  "linkDistance": 250,
-  "scale": 0.7855613011744031,
+  "centerStrength": 0.490240179934131,
+  "repelStrength": 9.06836518046709,
+  "linkStrength": 1,
+  "linkDistance": 30,
+  "scale": 0.4863455703184088,
   "close": false
 }
