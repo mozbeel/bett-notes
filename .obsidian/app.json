@@ -3,5 +3,8 @@
     "README.md"
   ],
   "promptDelete": false,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showLineNumber": true,
+  "showInlineTitle": true,
+  "readableLineLength": true
 }

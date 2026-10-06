@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9eb0129b351f308d",
+        "id": "409b594a81741620",
         "type": "tabs",
         "children": [
           {
-            "id": "001ea38c1f9fc44e",
+            "id": "0eaa997b4ed65342",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Misc/Arbeiterkammer.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Arbeiterkammer"
             }
           }
         ]
@@ -183,6 +187,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "001ea38c1f9fc44e",
-  "lastOpenFiles": []
+  "active": "0eaa997b4ed65342",
+  "lastOpenFiles": [
+    "Misc/Arbeiterkammer.md",
+    "CABS/Fetch-decode-execute.md",
+    "CABS/Instruction Sets.md",
+    "CABS/ISA.md",
+    "CABS/Buses.md",
+    "CABS/Storage Pyramid.md",
+    "BWM/Accounting/Third Party Construction.md",
+    "BWM/Accounting/Buying Materials.md",
+    "BWM/Accounting/Deprecation.md",
+    "History/Ancient Rome.md",
+    "Misc/Top 5 cato (猫).md",
+    "Misc/Top 5 Hollow Knight NPCs.md",
+    "BWM/Accounting/Self Constructed Assets.md",
+    "BWM/Accounting/Legal Basis for Assessement.md",
+    "NSCS/Recources.md",
+    "NSCS",
+    "BWM/Business/Sole Trader.md",
+    "Img/Pasted image 20260923140931.png",
+    "Img/Pasted image 20260923140907.png",
+    "Img/Pasted image 20260923140837.png",
+    "Img/Pasted image 20260923125432.png",
+    "History/Forms Of Government.md",
+    "CABS/ARM.md",
+    "CABS/DIMM.md",
+    "CABS/DDR.md",
+    "CABS/x86_64.md",
+    "CABS/RISC.md"
+  ]
 }
