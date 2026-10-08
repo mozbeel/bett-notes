@@ -69,6 +69,13 @@
         "a": 1,
         "rgb": 14701233
       }
+    },
+    {
+      "query": "tag:#Chemistry",
+      "color": {
+        "a": 1,
+        "rgb": 16295377
+      }
     }
   ],
   "collapse-display": false,
@@ -81,6 +88,6 @@
   "repelStrength": 9.06836518046709,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 1.050831656750096,
+  "scale": 0.8407158361727249,
   "close": false
 }

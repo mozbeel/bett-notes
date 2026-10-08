@@ -4,7 +4,7 @@ There's:
 - [[Propositional Logic]]
 
 Notation:
-- Porpositional variables are shown as small letters (p, q, r, s)
+- Propositional variables are shown as small letters (p, q, r, s)
 	- p, q, r, s mostly for inputs 
 - Boolean terms, sentences, etc. are shown as small letters (a, b, c, d)
 - Logical values: positive (t, +, 1, ...); negative (f, -, 0, ...)
@@ -18,4 +18,19 @@ Truth Table:
 | --- | --- |
 | t   | f   |
 | f   | t   |
-Negation (inversion) of a
+=> [[Negation]] (inversion) of a
+
+```python
+is_negated = n % 2 == 0
+```
+
+Base Junction Set:
+[[Conjunction]]
+[[Disjunction]]
+[[Negation]]
+
+Other junctions:
+[[Exclusive OR]]
+[[Material Implication]]
+
+[[Precedance]]

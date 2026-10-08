@@ -1,4 +1,4 @@
-#POS #Logics #Logics 
+#POS #Logics #Logic 
 Logic is the the use of valid reasoning. The porpositional logic can be true or false (even if we don't know the answer).
 Examples:
 - Vienna is the capital of Austria: true
