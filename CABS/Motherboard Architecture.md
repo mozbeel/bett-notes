@@ -1,5 +1,4 @@
 #CABS
-
 CPU 
 	=> Chipset
 		=> NVMe (Non Volatile Memory Express)
@@ -21,3 +20,6 @@ CPU
 	=> RAM: needs to be fastest connection
 	=> PCIe Bus
 
+Up to 12 layers
+Chips sind mit Leiterbahnen verbunden
+see slides on moodle

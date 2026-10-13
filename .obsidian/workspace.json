@@ -11,10 +11,14 @@
             "id": "22c8ced0950016be",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "CABS/SATA.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "SATA"
             }
           }
         ]
@@ -195,6 +199,19 @@
   },
   "active": "22c8ced0950016be",
   "lastOpenFiles": [
+    "CABS/Motherboard Architecture.md",
+    "CABS/SATA.md",
+    "CABS/ARM.md",
+    "CABS/Buses.md",
+    "CABS/CISC.md",
+    "CABS/DDR.md",
+    "CABS/DIMM.md",
+    "CABS/ISA.md",
+    "CABS/Instruction Sets.md",
+    "CABS/Storage Pyramid.md",
+    "CABS/x86_64.md",
+    "CABS/Fetch-decode-execute.md",
+    "CABS/RISC.md",
     "Misc/Top 5 Hollow Knight NPCs.md",
     "POS/Logics/Logic.md",
     "POS/Logics/Equivalence.md",
@@ -208,21 +225,8 @@
     "POS/Logics/Propositional Logic.md",
     "POS/Logics/Disjunction.md",
     "POS/Logics/Conjunction.md",
-    "POS/Logics/Negation.md",
-    "History/Forms Of Government.md",
-    "Chemistry/Reaktionsgleichungen.md",
-    "BWM/Accounting/Self Constructed Assets.md",
-    "BWM/Business/GmbH.md",
     "Chemistry",
-    "BWM/Business/Company Register.md",
-    "BWM/Business/GesbR.md",
-    "BWM/Business/Silent Participant.md",
     "BWM/Business/Untitled",
-    "Misc/Arbeiterkammer.md",
-    "CABS/Fetch-decode-execute.md",
-    "CABS/Instruction Sets.md",
-    "CABS/ISA.md",
-    "CABS/Buses.md",
     "NSCS",
     "Img/Pasted image 20260923140931.png",
     "Img/Pasted image 20260923140907.png",
