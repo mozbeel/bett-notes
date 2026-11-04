@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BWM/Accounting/Lesson-04-11-26.md",
+                "file": "BWM/Business/Lesson-04-11-26.md",
                 "mode": "source",
                 "source": false
               },
@@ -199,9 +199,10 @@
   },
   "active": "e4cd66d2acfeaef1",
   "lastOpenFiles": [
+    "BWM/Accounting/Lesson-04-11-26.md",
+    "BWM/Business/Lesson-04-11-26.md",
     "BWM/Accounting/Legal Basis for Assessement.md",
     "BWM/Accounting/Assessing Values.md",
-    "BWM/Accounting/Lesson-04-11-26.md",
     "POS/Logics/Boolean Replacement.md",
     "POS/Logics/Partial Formulas.md",
     "POS/Logics/Boolean Substitution.md",
@@ -224,7 +225,6 @@
     "CABS/RISC.md",
     "Misc/Top 5 Hollow Knight NPCs.md",
     "POS/Logics/Equivalence.md",
-    "POS/Logics/Binary Logic.md",
     "Chemistry",
     "BWM/Business/Untitled",
     "NSCS",
