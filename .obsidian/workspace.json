@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BWM/Business/Lesson-04-11-26.md",
+                "file": "CABS/Betriebsystem.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lesson-04-11-26"
+              "title": "Betriebsystem"
             }
           }
         ]
@@ -199,11 +199,13 @@
   },
   "active": "e4cd66d2acfeaef1",
   "lastOpenFiles": [
-    "BWM/Accounting/Lesson-04-11-26.md",
+    "POS/Logics/Boolean Replacement.md",
+    "CABS/Betriebsystem.md",
+    "POS/Logics/Binary Logic.md",
     "BWM/Business/Lesson-04-11-26.md",
+    "BWM/Accounting/Lesson-04-11-26.md",
     "BWM/Accounting/Legal Basis for Assessement.md",
     "BWM/Accounting/Assessing Values.md",
-    "POS/Logics/Boolean Replacement.md",
     "POS/Logics/Partial Formulas.md",
     "POS/Logics/Boolean Substitution.md",
     "POS/Logics/Indeterminism.md",
@@ -223,8 +225,6 @@
     "CABS/x86_64.md",
     "CABS/Fetch-decode-execute.md",
     "CABS/RISC.md",
-    "Misc/Top 5 Hollow Knight NPCs.md",
-    "POS/Logics/Equivalence.md",
     "Chemistry",
     "BWM/Business/Untitled",
     "NSCS",
