@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CABS/Betriebsystem.md",
+                "file": "BWM/Accounting/Lesson-16-11-26.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Betriebsystem"
+              "title": "Lesson-16-11-26"
             }
           }
         ]
@@ -197,10 +197,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e4cd66d2acfeaef1",
+  "active": "eebdb3c631f4c32b",
   "lastOpenFiles": [
-    "POS/Logics/Boolean Replacement.md",
+    "BWM/Business/Lesson-11-11-2026.md",
+    "BWM/Accounting/Lesson-16-11-26.md",
+    "History/Ancient Rome.md",
+    "History/The Middle Ages.md",
+    "History/Rome's end.md",
+    "History/Test.md",
+    "BWM/Accounting/Lesson-11-11-26.md",
+    "2026-11-11.md",
     "CABS/Betriebsystem.md",
+    "POS/Logics/Boolean Replacement.md",
     "POS/Logics/Binary Logic.md",
     "BWM/Business/Lesson-04-11-26.md",
     "BWM/Accounting/Lesson-04-11-26.md",
@@ -217,14 +225,6 @@
     "CABS/Motherboard Architecture.md",
     "CABS/ARM.md",
     "CABS/Buses.md",
-    "CABS/CISC.md",
-    "CABS/DDR.md",
-    "CABS/DIMM.md",
-    "CABS/ISA.md",
-    "CABS/Storage Pyramid.md",
-    "CABS/x86_64.md",
-    "CABS/Fetch-decode-execute.md",
-    "CABS/RISC.md",
     "Chemistry",
     "BWM/Business/Untitled",
     "NSCS",

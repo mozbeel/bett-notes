@@ -1,0 +1,19 @@
+- Highly sophisticated cultures
+- Code Of Hamurabi
+	- What its about?
+	- Connections to nowadays
+	- ...
+- Forms of Government
+- Rome
+	- Presentation via Handout
+		- Versions of Government in Rome (Kingdom, Republic, ...)
+		- ....
+	- ....
+- End Of Rome
+- Etruscians
+- History of Rome
+- Non-ultra-detailed knowledge of attractions in rome
+	- Formu Romanum
+- Roman Constitution
+- Rome Situation before Caesar and Caesar
+- Slavery in Rome and Modern Society

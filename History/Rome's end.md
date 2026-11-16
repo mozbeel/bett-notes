@@ -1,0 +1,29 @@
+#History 
+- Attacks from barbarians
+- economic difficulties
+	- inflation
+	- barbarian wars
+	- crisis
+	- ...
+- not enough slaves
+	- the system was running on slavery but there were not enough
+	- slow working system
+	- reasons for not enough slaves:
+		- slaves were captured
+		- christianity
+- too big
+- corruption
+- civil wars
+	- a lot of emporers that didn't survive long (some years, months even)
+	- when split happened: 2 emporers per empire, 4 emporers in total
+- barbarian migration (Voelkerwandung)
+	- goths, vandals, (V)Andalusia, Langobards
+	- -> feeling of threat, romans fight against different groups
+- Christianity
+	- Compared to Romans, Christians were "softies"
+	- Christianity became the state religion after a while
+- barbarians in the Roman army
+	- they fight as a job rather than for the country
+- (decadence)
+	- they didn't want children
+- (lead-poisoning)
