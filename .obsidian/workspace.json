@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BWM/Accounting/Lesson-16-11-26.md",
+                "file": "CABS/File Systems.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lesson-16-11-26"
+              "title": "File Systems"
             }
           }
         ]
@@ -197,17 +197,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eebdb3c631f4c32b",
+  "active": "e4cd66d2acfeaef1",
   "lastOpenFiles": [
-    "BWM/Business/Lesson-11-11-2026.md",
+    "CABS/Betriebsystem.md",
+    "CABS/ARM.md",
+    "CABS/File Systems.md",
     "BWM/Accounting/Lesson-16-11-26.md",
+    "BWM/Business/Lesson-11-11-2026.md",
     "History/Ancient Rome.md",
     "History/The Middle Ages.md",
     "History/Rome's end.md",
     "History/Test.md",
     "BWM/Accounting/Lesson-11-11-26.md",
     "2026-11-11.md",
-    "CABS/Betriebsystem.md",
     "POS/Logics/Boolean Replacement.md",
     "POS/Logics/Binary Logic.md",
     "BWM/Business/Lesson-04-11-26.md",
@@ -223,8 +225,6 @@
     "CABS/Instruction Sets.md",
     "CABS/SATA.md",
     "CABS/Motherboard Architecture.md",
-    "CABS/ARM.md",
-    "CABS/Buses.md",
     "Chemistry",
     "BWM/Business/Untitled",
     "NSCS",
